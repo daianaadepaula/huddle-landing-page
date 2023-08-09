@@ -1,24 +1,12 @@
 # Huddle landing page with single introductory section
 
-![Project image](./design/desktop-preview.jpg)
+<div align="center" >
+  <img src="./design/desktop-preview.jpg" alt="Project image" height="400px">
+</div>
 
 ## About the project
 
 Engaging landing page is built with HTML and CSS, combining elegant design elements to highlight the core message. Using responsive layouts and attractive typography, the page provides an impactful experience that encourages immediate action.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Functionalities](#functionalities)
-- [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Installation](#installation)
-  - [Frontend](#frontend)
-- [Author](#author)
-- [License](#license)
-
 
 ## Overview
 
@@ -60,12 +48,12 @@ The homepage features intuitive navigation that directs visitors to the featured
 
 1. Clone this repo
 ```bash
-git clone https://github.com/daianaadepaula/
+git clone https://github.com/daianaadepaula/huddle-landing-page.git
 ```
 
 2. Go to the project folder
 ```bash
-cd 
+cd huddle-landing-page
 ```
 
 ## Author
@@ -87,5 +75,5 @@ We thank the following people who contributed to this project:
 
 ## License
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/daianaadepaula/) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/daianaadepaula/)
 
