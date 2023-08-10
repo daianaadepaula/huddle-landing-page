@@ -1,10 +1,17 @@
 body {
   background-color: var(--bg-color);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1320px;
+  padding: 0 25px;
 }
 
 .img-bg {
   height: 100vh;
-  width: 100vw;
   position: relative;
 }
 
@@ -17,9 +24,77 @@ body {
 }
 
 .main .header {
-  padding: 25px 50px;
+  width: 100vw;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .header .img-logo {
-  width: 200px;
+  width: 170px;
+}
+
+.hero {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .container {
+  margin-top: 30px;
+  display: flex;
+  height: 70vh;
+}
+
+.container .img-hero {
+  width: 700px;
+  height: 500px;
+}
+
+.container .hero-info {
+  padding: 30px 0 0;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-text .hero-title {
+  font-family: var(--title-font);
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero-text .hero-paragraph {
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.hero-info .btn-register {
+  background-color: #fff;
+  border: none;
+  padding: 15px 60px;
+  color: var(--bg-color);
+  border-radius: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.hero-info .btn-register:hover {
+  background-color: var(--active-color);
+  color: #fff;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-info .hero-social ion-icon {
+  font-size: 30px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.hero-info .hero-social ion-icon:hover {
+  color: var(--active-color);
 }
